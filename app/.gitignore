@@ -1,48 +1,26 @@
-# Node.js specific files
-node_modules/
-npm-debug.log
-yarn-error.log
-
-# Logs
-logs
-*.log
-logs/*
-
-# Dependency directories
-node_modules/
-
-# Optional npm cache directory
-.npm
-
-# Optional REPL history
+# Ignore all hidden files and system directories
+.gitconfig
+.lc/
+.lesshst
 .node_repl_history
-
-# dotenv environment variable files
-.env
-.env.local
-.env.*.local
-
-# Output of 'npm pack'
-*.tgz
-
-# Editor-specific files
+.viminfo
 .vscode/
-.idea/
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
+AppData/
+Contacts/
+DBMS/
+Downloads/
+Favorites/
+IntelGraphicsProfiles/
+Links/
+Music/
+OneDrive/
+Saved Games/
+Searches/
+Videos/
+node_modules/
+NTUSER.DAT*
+ntuser.dat.LOG*
+ntuser.ini
 
-# OS-specific files
-.DS_Store
-Thumbs.db
-
-# Coverage directory used by tools like istanbul
-coverage/
-
-# TypeScript cache
-*.tsbuildinfo
-
-# Ignore build directories
-dist/
-build/
+# Other system or irrelevant files
+*.log
